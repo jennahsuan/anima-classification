@@ -15,3 +15,10 @@ We tried models including simple RNN, LSTM, SVM and kNN, but got really poor Acc
 
 So we took a different approach, using PCA to see the possibilty to seperate these data by class in a vector space.
 
+
+![image1](./PCA_t_sne_cos.png)
+![image2](./PCA_t_sne_euclidean.png)
+
+From PCA results and kNN testing on different k value, we conclude that it seems hard to classify the anime only through the data we use, or perhaps deeper and bigger model would help.
+
+![image3](./KNN_result.png)
